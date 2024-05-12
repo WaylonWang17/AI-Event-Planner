@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Event Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header-title {
+            margin: 0;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .corner-image {
+            position: absolute;
+            top: 10px;
+            width: 50px;
+            height: auto;
+        }
+
+        .left-image {
+            left: 20px;
+		width: 100px;
+        }
+
+        .right-image {
+            right: 20px;
+		width: 200px;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+        }
+
+        .welcome-message {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Chat Container Styles */
+        .chat-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-iframe {
+            width: 48%;
+            height: 500px;
+            border: none;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpfnxzUidDTlxZJCUdY78dEp_rxQ9RwxfUcrxtvyQOIQ&s.png" class="corner-image left-image">
+    <h1 class="header-title">AI Event Planner</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPs6BN7kH6j1zxPWLigcenoWPLFa549M7AvQ&s.png" class="corner-image right-image">
+</header>
+
+<main>
+    <div class="welcome-message">Welcome to AI Event Planner!</div>
+    <div class="chat-container">
+        <iframe src="https://app.gpt.nexus/Embed/f0124903-1cb6-451a-9acd-787b90fd7efe" class="chat-iframe" frameborder="0"></iframe>
+        <iframe src="https://app.gpt.nexus/Embed/efc57d6a-d35d-4788-a274-c63b3e9c6a8e" class="chat-iframe" frameborder="0"></iframe>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 AI Event Planner. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
